@@ -1,0 +1,42 @@
+.art-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.art-image {
+    max-width: 650px;
+    width: 100%;
+    height: auto;
+    max-height: 500px; /* Added max-height */
+    object-fit: cover;
+    margin-left: 40px;
+}
+
+.art-details {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 300px;
+    margin-right: 40px;
+}
+
+.nav_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    padding: 20px; 
+}
+.next-button {
+    font-size: 24px;
+    position: relative;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px; 
+}
+
